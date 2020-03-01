@@ -24,6 +24,6 @@ public class TrainBProcess extends Thread {
             e.printStackTrace();
         }
         //move off track once train has reached end position
-        trainTrack.trainBMoveOffTrack();
+        trainTrack.trainBMoveOffTrack(trainName);
     }
 }

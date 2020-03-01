@@ -1,23 +1,24 @@
 
-Fsquid:S2140S")Use "java.util.Random.nextInt()" instead.(ù©ó,8–…šë‡.
-Nsquid:S1172G"0Remove this unused method parameter "trainName".(“Ñ¥8–…šë‡.
-Nsquid:S11728"0Remove this unused method parameter "trainName".(ùªÎñ8–…šë‡.
-Fsquid:S2140D")Use "java.util.Random.nextInt()" instead.(ù©ó,8–…šë‡.
-Gsquid:S2140")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Gsquid:S2140¯")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Gsquid:S2140¹")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Fsquid:S2140'")Use "java.util.Random.nextInt()" instead.(ù©ó,8–…šë‡.
-Gsquid:S2140´")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Gsquid:S2140‘")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Fsquid:S2140d")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Ssquid:S1172V"0Remove this unused method parameter "trainName".(ĞÊŸíúÿÿÿÿ8–…šë‡.
-Tsquid:S1172"0Remove this unused method parameter "trainName".(À÷Ë ÿÿÿÿÿ8–…šë‡.
-Fsquid:S2140~")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Gsquid:S2140«")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Gsquid:S2140‚")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Fsquid:S21409")Use "java.util.Random.nextInt()" instead.(ù©ó,8–…šë‡.
-Fsquid:S2140H")Use "java.util.Random.nextInt()" instead.(ù©ó,8–…šë‡.
-Gsquid:S2140¾")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Gsquid:S2140Š")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
-Fsquid:S21402")Use "java.util.Random.nextInt()" instead.(ù©ó,8–…šë‡.
-Fsquid:S2140p")Use "java.util.Random.nextInt()" instead.( ¢¼c8–…šë‡.
+Fsquid:S2140s")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Gsquid:S2140ƒ")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Gsquid:S2140›")Use "java.util.Random.nextInt()" instead.(ù©ó,8ëÖÓˆ.
+Fsquid:S2140{")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Fsquid:S2140)")Use "java.util.Random.nextInt()" instead.(ù©ó,8’›€Òˆ.
+Gsquid:S2140¾")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Gsquid:S2140")Use "java.util.Random.nextInt()" instead.(ù©ó,8ëÖÓˆ.
+Gsquid:S2140¯")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Gsquid:S2140º")Use "java.util.Random.nextInt()" instead.(ù©ó,8ëÖÓˆ.
+Fsquid:S2140")Use "java.util.Random.nextInt()" instead.(ù©ó,8¼…È¸ˆ.
+Fsquid:S2140e")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Fsquid:S21405")Use "java.util.Random.nextInt()" instead.( ¢¼c8‡˜“ºˆ.
+Fsquid:S2140]")Use "java.util.Random.nextInt()" instead.( ¢¼c8ğ«´¿ˆ.
+Fsquid:S2140M")Use "java.util.Random.nextInt()" instead.( ¢¼c8ğ«´¿ˆ.
+Gsquid:S2140Ÿ")Use "java.util.Random.nextInt()" instead.(ù©ó,8ëÖÓˆ.
+Gsquid:S2140È")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Fsquid:S2140U")Use "java.util.Random.nextInt()" instead.( ¢¼c8¢ü³¿ˆ.
+Gsquid:S2140Î")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Gsquid:S2140Ä")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Gsquid:S2140‹")Use "java.util.Random.nextInt()" instead.( ¢¼c8ëÖÓˆ.
+Fsquid:S2140@")Use "java.util.Random.nextInt()" instead.(ù©ó,8öÙˆÒˆ.
+Bsquid:S3010"$Remove this assignment of "slotSem".(½¡½Œ8öß³Äˆ.
+Gsquid:S2140ª")Use "java.util.Random.nextInt()" instead.(ù©ó,8ëÖÓˆ.

@@ -1,18 +1,0 @@
-
-Fsquid:S2140}")Use "java.util.Random.nextInt()" instead.( ¢¼c8Ş´Âù‡.
-Psquid:S1068"-Remove this unused "aCountSem" private field.(¼˜‹Ğøÿÿÿÿ8¨¡›í‡.
-¥squid:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ®şíúÿÿÿÿ8Ş´Âù‡.
-Ÿsquid:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“Ñ¥8ÑšÁì‡.
-Rsquid:S1068"5Remove this unused "aUsingSharedTrack" private field.(Õá>8ÑšÁì‡.
-Ssquid:S1068"5Remove this unused "bUsingSharedTrack" private field.(‘Æöî8ÑšÁì‡.
-¤squid:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…ôÒùÿÿÿÿ8ÑšÁì‡.
-Fsquid:S2140&")Use "java.util.Random.nextInt()" instead.(ù©ó,8ù§‡í‡.
-Psquid:S1068"-Remove this unused "aMutexSem" private field.(„¥›úÿÿÿÿ8ÑšÁì‡.
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(°ù€ßüÿÿÿÿ8ä¼Ãù‡.
-usquid:S37766"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ßö˜’ÿÿÿÿÿ8çşƒù‡.
-Psquid:S1068"-Remove this unused "bMutexSem" private field.(œ»úéøÿÿÿÿ8ÑšÁì‡.
-Ÿsquid:S11860"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ùªÎñ8ÑšÁì‡.
-Isquid:S1068"+Remove this unused "slotSem" private field.(¸÷å8¨¡›í‡.
-Ksquid:S1068"-Remove this unused "bCountSem" private field.(‘§…’8ÑšÁì‡.
-Qsquid:S1068"3Remove this unused "sharedTrackLock" private field.(ÂÎ¼¾8ÑšÁì‡.
-¤squid:S1186y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À÷Ë ÿÿÿÿÿ8Ş´Âù‡.

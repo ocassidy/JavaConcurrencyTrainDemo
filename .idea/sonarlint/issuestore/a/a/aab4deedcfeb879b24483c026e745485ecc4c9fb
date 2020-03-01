@@ -1,5 +1,8 @@
 
-V
-squid:S106 "9Replace this use of System.out or System.err by a logger.(¯ÎÚ²8†Àáë‡.
 [
-squid:S106#"9Replace this use of System.out or System.err by a logger.(¡¹—Òøÿÿÿÿ8†Àáë‡.
+squid:S106&"9Replace this use of System.out or System.err by a logger.(¡¹—Òøÿÿÿÿ8ï¡ÜÒˆ.
+jsquid:S1192,"LDefine a constant instead of duplicating this literal "           " 3 times.(²‚é‘8ï¡ÜÒˆ.
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Øû’éøÿÿÿÿ8ï¡ÜÒˆ.
+jsquid:S1192."GDefine a constant instead of duplicating this literal "      " 8 times.(¾ˆ”ÿÿÿÿÿ8ï¡ÜÒˆ.
+lsquid:S1192-"IDefine a constant instead of duplicating this literal "        " 4 times.(ñ½Í¼ûÿÿÿÿ8ï¡ÜÒˆ.
