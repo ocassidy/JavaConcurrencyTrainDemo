@@ -29,7 +29,7 @@ public class TrainTrack {
     }
 
     public void trainAMoveOnToTrack(String trainName) throws InterruptedException {
-        Thread.sleep((int) (Math.random() * 5));
+        //Thread.sleep((int) (Math.random() * 5));
         // limit number of A trains on track to avoid deadlock
         aCountSem.acquire();
         // wait for slot 4 & 5 to be free before entering track
@@ -37,10 +37,11 @@ public class TrainTrack {
         slotSem[5].acquire();
         slots[5] = "[" + trainName + "]";
         activity.addMovedTo(5);
+        slotSem[4].release();
     }
 
     public void trainBMoveOnToTrack(String trainName) throws InterruptedException {
-        Thread.sleep((int) (Math.random() + 4 * 12));
+        //Thread.sleep((int) (Math.random() + 4 * 12));
         // limit number of B trains on track to avoid deadlock
         bCountSem.acquire();
         // wait for slot 13 & 14 to be free before entering track
@@ -48,6 +49,7 @@ public class TrainTrack {
         slotSem[14].acquire();
         slots[14] = "[" + trainName + "]";
         activity.addMovedTo(14);
+        slotSem[13].release();
     }
 
     public void trainMoveFrom2To5() throws InterruptedException {
@@ -74,13 +76,9 @@ public class TrainTrack {
             slotSem[currentPosition].release(); // signal slot you are leaving
             currentPosition++;
         }
-
-        slotSem[4].release();
     }
 
     public void navigateCrossroadsFromATrack() throws InterruptedException {
-        //release last slot for train to queue for crossroad
-        slotSem[8].release();
         // wait for the necessary conditions to get access to crossroads from A track
         crossroadMutex.acquire();
 
@@ -105,13 +103,11 @@ public class TrainTrack {
         slots[10] = "[..]";
         activity.addMovedTo(11);
 
-        slotSem[8].release();
         crossroadMutex.release();
+        slotSem[8].release();
     }
 
     public void navigateCrossroadsFromBTrack() throws InterruptedException {
-        //release last slot for train to queue for crossroad
-        slotSem[17].release();
         // wait for the necessary conditions to get access to crossroads from A track
         crossroadMutex.acquire();
 
@@ -135,8 +131,8 @@ public class TrainTrack {
         slots[1] = "[..]";
         activity.addMovedTo(2);
 
-        slotSem[17].release();
         crossroadMutex.release();
+        slotSem[17].release();
     }
 
     public void trainMoveFrom11To14() throws InterruptedException {
@@ -163,8 +159,7 @@ public class TrainTrack {
             slotSem[currentPosition].release(); // signal slot you are leaving
             currentPosition++;
         }
-
-        slotSem[13].release();
+        //slotSem[2].acquire();
     }
 
     public void trainAMoveOffTrack(String trainName) {
