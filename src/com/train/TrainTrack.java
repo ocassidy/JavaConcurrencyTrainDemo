@@ -29,7 +29,7 @@ public class TrainTrack {
     }
 
     public void trainAMoveOnToTrack(String trainName) throws InterruptedException {
-        //Thread.sleep((int) (Math.random() * 5));
+        Thread.sleep((int) (Math.random() * 5));
         // limit number of A trains on track to avoid deadlock
         aCountSem.acquire();
         // wait for slot 4 & 5 to be free before entering track
@@ -41,7 +41,7 @@ public class TrainTrack {
     }
 
     public void trainBMoveOnToTrack(String trainName) throws InterruptedException {
-        //Thread.sleep((int) (Math.random() + 4 * 12));
+        Thread.sleep((int) (Math.random() * 10));
         // limit number of B trains on track to avoid deadlock
         bCountSem.acquire();
         // wait for slot 13 & 14 to be free before entering track
@@ -103,8 +103,8 @@ public class TrainTrack {
         slots[10] = "[..]";
         activity.addMovedTo(11);
 
-        crossroadMutex.release();
         slotSem[8].release();
+        crossroadMutex.release();
     }
 
     public void navigateCrossroadsFromBTrack() throws InterruptedException {
@@ -127,12 +127,13 @@ public class TrainTrack {
         activity.addMovedTo(1);
 
         //move from 1 to 2
+        slotSem[2].acquire();
         slots[2] = slots[1];
         slots[1] = "[..]";
         activity.addMovedTo(2);
 
-        crossroadMutex.release();
         slotSem[17].release();
+        crossroadMutex.release();
     }
 
     public void trainMoveFrom11To14() throws InterruptedException {
@@ -159,19 +160,18 @@ public class TrainTrack {
             slotSem[currentPosition].release(); // signal slot you are leaving
             currentPosition++;
         }
-        //slotSem[2].acquire();
     }
 
-    public void trainAMoveOffTrack(String trainName) {
-        activity.addMessage("Train " + trainName + " " + slots[5] + " is leaving the loop at section 5");
+    public void trainAMoveOffTrack() {
+        activity.addMessage("Train " + slots[5] + " is leaving the loop at section 5");
         // move train type A off slot 5
         slots[5] = "[..]";
         slotSem[5].release();
         aCountSem.release();
     }
 
-    public void trainBMoveOffTrack(String trainName) {
-        activity.addMessage("Train " + trainName + " " + slots[14] + " is leaving the loop at section 14");
+    public void trainBMoveOffTrack() {
+        activity.addMessage("Train " + slots[14] + " is leaving the loop at section 14");
         // move train type A off slot 14
         slots[14] = "[..]";
         slotSem[14].release();

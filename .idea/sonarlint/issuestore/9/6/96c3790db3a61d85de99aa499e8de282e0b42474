@@ -1,4 +1,4 @@
 
 Xsquid:S1161":Add the "@Override" annotation above this method signature(“–ýþ8Œ…‹Æˆ.
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Œ…‹Æˆ.
-dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Œ…‹Æˆ.
+Hsquid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8÷„¼Â‰.
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ûó»Â‰.
