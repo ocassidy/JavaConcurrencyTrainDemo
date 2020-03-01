@@ -20,7 +20,7 @@ public class TrainBProcess extends Thread {
             trainTrack.trainMove5To8();
             trainTrack.navigateCrossroadsFromATrack();
             trainTrack.trainMoveFrom11To14();
-        } catch (InterruptedException e) {
+        } catch (Throwable e) {
             e.printStackTrace();
         }
         //move off track once train has reached end position
