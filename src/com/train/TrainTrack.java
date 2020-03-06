@@ -26,7 +26,7 @@ public class TrainTrack {
 
     public void trainAMoveOnToTrack(String trainName) throws InterruptedException {
         Thread.sleep((int) (Math.random() * 5));
-        // limit number of A trains on track to avoid deadlock
+        // limit number of trains on track to avoid deadlock
         totalTrainSem.acquire();
         // wait for slot 4 & 5 to be free before entering track
         slotSem[4].acquire();
@@ -38,7 +38,7 @@ public class TrainTrack {
 
     public void trainBMoveOnToTrack(String trainName) throws InterruptedException {
         Thread.sleep((int) (Math.random() * 10));
-        // limit number of B trains on track to avoid deadlock
+        // limit number of trains on track to avoid deadlock
         totalTrainSem.acquire();
         // wait for slot 13 & 14 to be free before entering track
         slotSem[13].acquire();

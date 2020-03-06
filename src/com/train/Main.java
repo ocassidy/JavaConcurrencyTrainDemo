@@ -5,8 +5,8 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         //specify number of A and B trains
-        final int numOfATrains = 10;
-        final int numOfBTrains = 10;
+        final int numOfATrains = 20;
+        final int numOfBTrains = 20;
 
         //create arrays to hold the trains
         TrainAProcess[] trainAProcess = new TrainAProcess[numOfATrains];
